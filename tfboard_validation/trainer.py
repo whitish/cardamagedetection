@@ -26,12 +26,16 @@ class Trainer(DefaultTrainer):
     def build_evaluator(cls, cfg, dataset_name, output_folder=None):
         if output_folder is None:
             output_folder = os.path.join(cfg.OUTPUT_DIR, "inference")
+
+        ) = """
         return COCOEvaluator(
             dataset_name=dataset_name,
-            tasks=None,  # ("bbox",),
+            tasks=("bbox",),
             distributed=True,
             output_dir=output_folder,
         )
+        """
+        return None
 
     def build_writers(self):
         """
