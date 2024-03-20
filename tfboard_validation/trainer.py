@@ -28,7 +28,7 @@ class Trainer(DefaultTrainer):
             output_folder = os.path.join(cfg.OUTPUT_DIR, "inference")
         return COCOEvaluator(
             dataset_name=dataset_name,
-            tasks=("bbox",),
+            tasks=None,  # ("bbox",),
             distributed=True,
             output_dir=output_folder,
         )
