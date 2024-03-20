@@ -27,7 +27,7 @@ class Trainer(DefaultTrainer):
         if output_folder is None:
             output_folder = os.path.join(cfg.OUTPUT_DIR, "inference")
 
-        ) = """
+        _ = """
         return COCOEvaluator(
             dataset_name=dataset_name,
             tasks=("bbox",),
