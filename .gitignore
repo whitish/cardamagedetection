@@ -1,0 +1,6 @@
+data/
+arch/
+presentation/
+output/
+__pycache__/
+.ipynb_checkpoints/
