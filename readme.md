@@ -7,7 +7,8 @@ https://www.kaggle.com/datasets/humansintheloop/car-parts-and-car-damages/code
 ## Old (small)
 https://www.kaggle.com/datasets/lplenka/coco-car-damage-detection-dataset
 
-
-
 # car damage data sets
 https://universe.roboflow.com/dan-vmm5z/car-damage-coco-dataset
+
+# Support ❤️
+If you like my work, please support ❤️ -> [Donate](https://send.monobank.ua/jar/9zg9XQTAt)
